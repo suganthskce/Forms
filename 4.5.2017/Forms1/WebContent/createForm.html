@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Create Form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="Stylesheet.css">
+<script src="Script.js"></script>
+</head>
+<body>
+<div id="nav-div">
+<img alt="Form" id="headIco" src="image/form.ico">
+<h1 id="headText" contenteditable="true">Your Form Name</h1>
+</div>
+<div>
+<form id="form" method="POST">
+<table id="formTable">
+<tr id="fullField1"><td><input id="questionName1" name="questionName1" placeholder="Question"></td><td colspan="2"><select id="questionType1" name="questionType1" onchange="addSubjectAtEvent(this)"><option selected disabled value="default">--SELECT OPTION--</option><option value="shortAnswer">Short Answer</option><option value="paragraph">Paragraph</option><option value="multipleChoice">Multiple Choice</option><option value="checkbox">Checkboxes</option><option value="dropdown">Dropdown</option></select></td></tr>
+<tr id="fullRow1"><td colspan="2" id="subject1"></td></tr>
+<tr><td colspan="2"><p onclick="AddField()"><img id="ico" src="image/add.ico" alt="Add Field"/></p></td></tr>
+<tr><td colspan="2"><p id="submitBtn" onclick="checkBeforeAction()" >Submit</p></td></tr>
+</table>
+</form>
+<p id="message" > </p>
+</div>
+</body>
+</html>

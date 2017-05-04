@@ -1,0 +1,93 @@
+@CHARSET "ISO-8859-1";
+html{
+	overflow: hidden; 
+	height: 100%; 
+	//background: #e2e2e2;
+	 //background-image: url("image/background1.jpg");
+	 //background-repeat:none;
+}
+body{
+	overflow-x: hidden; 
+	height: 100%; 
+	width: 660px; 
+	margin: 0px auto; /* center */ 
+	padding: 0 20px;
+	border: 0.5px solid grey; 
+	border-width: 0 1px;
+	background: #f3f3f3;
+	box-shadow:1px 5px 5px 5px #888888;
+}
+
+#nav-div{
+	position:relative;
+	top:-2px;
+	left:-20px;
+	width:200%;
+	height:60px;
+	background: #bdc3c7;
+	margin:0px;
+	padding:0px;
+}
+#headIco{
+	position:relative;
+	top:12px;
+	left:20px;
+	height:30px;
+}
+#headText{
+	position:relative;
+	top:-40px;
+	left:60px;
+}
+​
+#formName{
+	 border-style: solid;
+     border-width: 0px 0px 1px 0px;
+     border-color: grey;
+     border-radius:0px;
+}
+#formName:hover{
+	 box-shadow: 0px 5px 5px #888888;
+}
+select,input {
+    width: auto;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+select:hover, input:hover{
+	box-shadow: 0px 5px 5px #888888;
+}
+
+#submitBtn {
+    width: 60px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    text-align:center;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submitBtn:hover {
+    background-color: #45a049;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+#ico{
+	margin:0px;
+	padding:5px;
+	width:22px;
+	height:22px;
+}
+#ico:hover{
+	border:0.5px solid grey;
+	border-radius:50px;
+	cursor:pointer;
+	box-shadow: 0px 5px 5px #888888;
+}

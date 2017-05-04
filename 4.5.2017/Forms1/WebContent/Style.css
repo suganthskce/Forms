@@ -1,0 +1,65 @@
+@CHARSET "ISO-8859-1";
+body{
+	margin:0px;
+	padding:0px;
+	background: #e2e2e2;
+	//background-image:url("image/backgroundimg.jpg");
+}
+#nav-head{
+	width:100%;
+	height:60px;
+	background: #bdc3c7;
+	position:fixed;
+}
+#headIco{
+	position:relative;
+	top:12px;
+	left:20px;
+	height:30px;
+}
+#btn_log,#btn_sign{
+	position:relative;
+	bottom:120px;
+	right:3px;
+	height:30px;
+	float:right;
+	padding:20px;
+}
+#btn_log,#btn_sign:hover{
+	cursor:pointer;
+	//box-shadow: 5px 0px 5px #888888;
+}
+#headText{
+	position:relative;
+	top:-40px;
+	left:60px;
+}
+select,input {
+    width: auto;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+select:hover, input:hover{
+	box-shadow: 0px 5px 5px #888888;
+}
+
+#submitBtn {
+    width: 60px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    text-align:center;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submitBtn:hover {
+    background-color: #45a049;
+    box-shadow: 5px 5px 5px #888888;
+}
